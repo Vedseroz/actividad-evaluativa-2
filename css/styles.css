@@ -1,0 +1,88 @@
+html {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-stretch: ultra-condensed;
+  color: white;
+  font-weight: bold;
+  background-color: #18317a;
+}
+
+fieldset {
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 70%;
+  height: 56em;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #8fabff;
+}
+
+legend {
+  background-color: #8fabff;
+  border-radius: 40%;
+  width: 20%;
+  text-align: center;
+  padding: 1%;
+}
+
+form {
+  padding: 1em;
+}
+
+label {
+  display: block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;
+  margin-right: 1%;
+}
+
+input {
+  display: block;
+  float: left;
+  margin-bottom: 1%;
+  background-color: #becafa;
+}
+
+#conocimiento {
+  width: 50%;
+  cursor: pointer;
+  background-color: #8fabff;
+  color: #18317a;
+}
+
+textarea {
+  clear: left;
+  float: left;
+  margin-left: 20%;
+  margin-bottom: 4%;
+  background-color: #becafa;
+}
+
+button {
+  display: block;
+  padding: 10px;
+  float: left;
+  clear: left;
+}
+
+#enviar {
+  background-color: #85fff5;
+  cursor: pointer;
+}
+
+#limpiar {
+  background-color: #fc2a2a;
+  color: white;
+  float: right;
+  clear: right;
+  cursor: pointer;
+}
+
+#mensaje {
+  display: none;
+  margin: 6%;
+}
+/*# sourceMappingURL=styles.css.map */
